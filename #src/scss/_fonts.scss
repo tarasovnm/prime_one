@@ -1,0 +1,13 @@
+@import "_mixins/font-face";
+
+@include font("Bebas", "Bebas-Regular");
+@include font("AkzidenzGroteskBQ", "AkzidenzGroteskBQ-BdCnd");
+@include font("PTSans", "PTSans-Regular");
+
+/* примеры подключения шрифтов 
+@include font("Kaushan Script", "KaushanScript-Regular/KaushanScript-Regular");
+@include font("Montserrat", "Montserrat-Regular/Montserrat-Regular");
+@include font("Montserrat", "Montserrat-Bold/Montserrat-Bold", bold);
+@include font("Roboto", "fonts/Roboto-Regular/Roboto-Regular");
+@include font("Roboto", "fonts/Roboto-LightItalic/Roboto-LightItalic", 300, italic);
+*/

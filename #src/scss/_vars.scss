@@ -1,0 +1,17 @@
+$default-font: "PTSans", sans-serif;
+
+// добавлять через @extend %...
+%ptsans {
+  font-family: "PTSans", sans-serif;
+  font-weight: 400;
+}
+
+%akzidenz {
+  font-family: "AkzidenzGroteskBQ";
+  font-weight: 700;
+}
+
+%bebas {
+  font-family: "Bebas";
+  font-weight: 400;
+}
