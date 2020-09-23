@@ -12,35 +12,55 @@
 <body>
   <header class="header">
     <div class="container">
-      <a class="header__logo" href="#">
-        <img class="header__logo-image" src="img/main-logo.png" alt="Prime One logo" width="212" height="108">
-      </a>
+      <div class="header__inner">
+        <a class="header__logo" href="#">
+          <img class="header__logo-image" src="img/main-logo.png" alt="Prime One logo" width="212" height="108">
+        </a>
 
-      <nav class="main-nav">
-        <div class="main-nav__top">
-          <ul class="main-nav__languages">
-            <li class="main-nav__lang main-nav__lang--active">
-              <a href="" class="main-nav__lang-link">En</a>
-            </li>
-            <li class="main-nav__lang main-nav__lang--active">
-              <a href="" class="main-nav__lang-link">Ru</a>
-            </li>
-            <li class="main-nav__lang main-nav__lang--active">
-              <a href="" class="main-nav__lang-link">Esp</a>
-            </li>
-          </ul>
-          <a class="main-nav__online" href="#">Online ordering</a>
-        </div>
+        <nav class="main-nav">
+          <div class="main-nav__top">
+            <ul class="main-nav__languages">
+              <li class="main-nav__lang main-nav__lang--active">
+                <a href="" class="main-nav__lang-link">En</a>
+              </li>
+              <li class="main-nav__lang">
+                <a href="" class="main-nav__lang-link">Ru</a>
+              </li>
+              <li class="main-nav__lang">
+                <a href="" class="main-nav__lang-link">Esp</a>
+              </li>
+            </ul>
+            <a class="main-nav__online" href="#">Online ordering</a>
+          </div>
 
-        <ul class="main-nav__list">
-          <li class="main-nav__item"><a href="#" class="main-nav__link">ABOUT</a></li>
-          <li class="main-nav__item"><a href="#" class="main-nav__link">Menus</a></li>
-          <li class="main-nav__item"><a href="#" class="main-nav__link">Service Info</a></li>
-          <li class="main-nav__item"><a href="#" class="main-nav__link">Gallery</a></li>
-          <li class="main-nav__item"><a href="#" class="main-nav__link">Friends</a></li>
-          <li class="main-nav__item"><a href="#" class="main-nav__link">Contact</a></li>
-        </ul>
-      </nav>
+          <div class="main-nav__bottom">
+
+            <ul class="main-nav__menu-left menu">
+              <li class="menu__item">
+                <a href="#" class="menu__link">ABOUT</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Menus</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Service Info</a>
+              </li>
+            </ul>
+
+            <ul class="main-nav__menu-right menu">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Gallery</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Friends</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -50,7 +70,9 @@
 
     <section class="private">
       <div class="private__column">
-        <img class="private__image" src="img/private-catering-big.jpg" alt="Private catering">
+        <div class="private__image ibg">
+          <img src="img/private-catering-big.jpg" alt="Private catering">
+        </div>
       </div>
 
       <div class="private__column">
@@ -75,42 +97,50 @@
         <ul class="caterings__list">
           <li class="caterings__item catering">
             <img class="catering__image" src="img/catering-1.jpg" alt="Corporate catering">
-            <h3 class="catering__title">Corporate catering</h3>
-            <p class="catering__description">
-              We are able to serve events from 2 to 2000 guests and always reasonable prices.
-            </p>
-            <a class="catering__get-ruote btn" href="#">Get a quote</a>
-            <a class="catering__view-menus view-link" href="#">View menus</a>
+            <div class="catering__body">
+              <h3 class="catering__title">Corporate catering</h3>
+              <p class="catering__description">
+                We are able to serve events from 2 to 2000 guests and always reasonable prices.
+              </p>
+              <a class="catering__get-ruote btn" href="#">Get a quote</a>
+              <a class="catering__view-menus view-link" href="#">View menus</a>
+            </div>
           </li>
 
           <li class="caterings__item catering">
             <img class="catering__image" src="img/catering-2.jpg" alt="Corporate catering">
-            <h3 class="catering__title">Private catering</h3>
-            <p class="catering__description">
-              Fresh, seasonal and simple cuisine. Food is our business and our passion.
-            </p>
-            <a class="catering__get-ruote btn" href="#">Get a quote</a>
-            <a class="catering__view-menus view-link" href="#">View menus</a>
+            <div class="catering__body">
+              <h3 class="catering__title">Private catering</h3>
+              <p class="catering__description">
+                Fresh, seasonal and simple cuisine. Food is our business and our passion.
+              </p>
+              <a class="catering__get-ruote btn" href="#">Get a quote</a>
+              <a class="catering__view-menus view-link" href="#">View menus</a>
+            </div>
           </li>
 
           <li class="caterings__item catering">
             <img class="catering__image" src="img/catering-3.jpg" alt="Corporate catering">
-            <h3 class="catering__title">Wedding catering</h3>
-            <p class="catering__description">
-              We use only the best organic ingredients and gluten and dairy free cooking.
-            </p>
-            <a class="catering__get-ruote btn" href="#">Get a quote</a>
-            <a class="catering__view-menus view-link" href="#">View menus</a>
+            <div class="catering__body">
+              <h3 class="catering__title">Wedding catering</h3>
+              <p class="catering__description">
+                We use only the best organic ingredients and gluten and dairy free cooking.
+              </p>
+              <a class="catering__get-ruote btn" href="#">Get a quote</a>
+              <a class="catering__view-menus view-link" href="#">View menus</a>
+            </div>
           </li>
 
           <li class="caterings__item catering">
             <img class="catering__image" src="img/catering-4.jpg" alt="Corporate catering">
-            <h3 class="catering__title">Online ordering</h3>
-            <p class="catering__description">
-              Successful catering is about organisation, high quality service, and great food.
-            </p>
-            <a class="catering__get-ruote btn" href="#">Get a quote</a>
-            <a class="catering__view-menus view-link" href="#">View menus</a>
+            <div class="catering__body">
+              <h3 class="catering__title">Online ordering</h3>
+              <p class="catering__description">
+                Successful catering is about organisation, high quality service, and great food.
+              </p>
+              <a class="catering__get-ruote btn" href="#">Get a quote</a>
+              <a class="catering__view-menus view-link" href="#">View menus</a>
+            </div>
           </li>
 
         </ul>
@@ -123,40 +153,43 @@
           <h2 class="advantages__title">Why CHOOSE us?</h2>
         </div>
         <div class="advantages__column">
-          <img class="advantages__image" src="img/choose-us.jpg" alt="Delicious meal">
+          <div class="advantages__image ibg">
+            <img src="img/choose-us.jpg" alt="Delicious meal">
+          </div>
         </div>
       </div>
+      <div class="advantages__body">
+        <div class="container">
+          <ul class="advantages__list">
+            <li class="advantages__item advantage">
+              <h3 class="advantage__title">Always fresh</h3>
+              <p class="advantage__description">
+                Fresh, seasonal and simple cuisine. Food is our business and our passion.
+              </p>
+            </li>
 
-      <div class="container">
-        <ul class="advantages__list">
-          <li class="advantages__item advantage">
-            <h3 class="advantage__title">Always fresh</h3>
-            <p class="advantage__description">
-              Fresh, seasonal and simple cuisine. Food is our business and our passion.
-            </p>
-          </li>
+            <li class="advantages__item advantage">
+              <h3 class="advantage__title">Reliable AND Flawless</h3>
+              <p class="advantage__description">
+                Successful catering is about organisation, high quality service, and great food.
+              </p>
+            </li>
 
-          <li class="advantages__item advantage">
-            <h3 class="advantage__title">Reliable AND Flawless</h3>
-            <p class="advantage__description">
-              Successful catering is about organisation, high quality service, and great food.
-            </p>
-          </li>
+            <li class="advantages__item advantage">
+              <h3 class="advantage__title">Clean and Healthy</h3>
+              <p class="advantage__description">
+                We use only the best organic ingredients and gluten and dairy free cooking.
+              </p>
+            </li>
 
-          <li class="advantages__item advantage">
-            <h3 class="advantage__title">Clean and Healthy</h3>
-            <p class="advantage__description">
-              We use only the best organic ingredients and gluten and dairy free cooking.
-            </p>
-          </li>
-
-          <li class="advantages__item advantage">
-            <h3 class="advantage__title">fits any size and budget</h3>
-            <p class="advantage__description">
-              We are able to serve events from 2 to 2000 guests and always at reasonable prices.
-            </p>
-          </li>
-        </ul>
+            <li class="advantages__item advantage">
+              <h3 class="advantage__title">fits any size and budget</h3>
+              <p class="advantage__description">
+                We are able to serve events from 2 to 2000 guests and always at reasonable prices.
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -164,46 +197,50 @@
       <div class="container">
         <h2 class="contacts__title">Say Hello</h2>
         <div class="contacts__data">
-          <div class="contacts__address">45-35 #B 39th St, Sunnyside, NY 11104</div>
+          <div class="contacts__item contacts__item--address">45-35 #B 39th St, Sunnyside, NY 11104</div>
 
-          <div class="contacts__email">
-            <a class="contacts__email-link" href="mailto:contact@primeone.com">contact@primeone.com</a>
+          <div class="contacts__item contacts__item--email">
+            <a class="contacts__link" href="mailto:contact@primeone.com">contact@primeone.com</a>
           </div>
 
-          <div class="contacts__phone">
-            <a class="contacts__phone-link" href="tel:7187777777">(718) 777-7777</a>
+          <div class="contacts__item contacts__item--phone">
+            <a class="contacts__link" href="tel:7187777777">(718) 777-7777</a>
           </div>
 
-          <ul class="contacts__socials socials">
-            <li class="socials__item">
-              <a class="socials__link" href="#">
-                <span class="visually-hidden">Facebook</span>
-              </a>
-            </li>
+          <div class="contacts__item">
+            <ul class="socials">
+              <li class="socials__item">
+                <a class="socials__link socials__link--fb" href="#">
+                  <span class="visually-hidden">Facebook</span>
+                </a>
+              </li>
 
-            <li class="socials__item">
-              <a class="socials__link" href="#">
-                <span class="visually-hidden">Twitter</span>
-              </a>
-            </li>
+              <li class="socials__item">
+                <a class="socials__link socials__link--twitter" href="#">
+                  <span class="visually-hidden">Twitter</span>
+                </a>
+              </li>
 
-            <li class="socials__item">
-              <a class="socials__link" href="#">
-                <span class="visually-hidden">Instagram</span>
-              </a>
-            </li>
+              <li class="socials__item">
+                <a class="socials__link socials__link--instagram" href="#">
+                  <span class="visually-hidden">Instagram</span>
+                </a>
+              </li>
 
-            <li class="socials__item">
-              <a class="socials__link" href="#">
-                <span class="visually-hidden">Google Plus</span>
-              </a>
-            </li>
-          </ul>
+              <li class="socials__item">
+                <a class="socials__link socials__link--google" href="#">
+                  <span class="visually-hidden">Google Plus</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="contacts__row">
         <div class="contacts__column">
-          <img class="contacts__map" src="img/map.jpg">
+          <div class="contacts__map ibg">
+            <img src="img/map.jpg">
+          </div>
         </div>
         <div class="contacts__column">
           <form class="contacts-form">
@@ -231,12 +268,15 @@
 
   <footer class="footer">
     <div class="container">
-      <p class="footer__copyright">
-        © PrimeOne Catering 2014. Terms & Conditions
-      </p>
-      <a class="footer__logo" href="#">
-        <img class="footer__logo-image" src="img/logo-small.png" width="156" height="65" alt="Prime One logo">
-      </a>
+      <div class="footer__inner">
+        <p class="footer__copyright">
+          © PrimeOne Catering 2014.
+          <a class="footer__link" href="#">Terms & Conditions</a>
+        </p>
+        <a class="footer__logo" href="#">
+          <img class="footer__logo-image" src="img/logo-small.png" width="156" height="65" alt="Prime One logo">
+        </a>
+      </div>
     </div>
   </footer>
 
