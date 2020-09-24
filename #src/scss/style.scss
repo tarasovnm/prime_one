@@ -424,6 +424,10 @@
 
   &__column {
     width: 50%;
+
+    &:last-child {
+      padding: 50px 60px 50px 60px;
+    }
   }
 
   &__map {
@@ -469,10 +473,32 @@
 // ==============================================================
 
 .contacts-form {
+  max-width: 375px;
+
   &__title {
+    @extend %akzidenz;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 0 20px 0;
   }
 
   &__line {
+    margin-bottom: 25px;
+
+    input,
+    textarea {
+      padding: 15px;
+      width: 100%;
+      background-color: #252525;
+      border: 2px solid #959595;
+
+      color: #959595;
+      @extend %ptsans;
+      font-size: 15px;
+    }
   }
 
   &__btn {
