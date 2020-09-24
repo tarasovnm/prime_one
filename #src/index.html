@@ -14,7 +14,11 @@
     <div class="container">
       <div class="header__inner">
         <a class="header__logo" href="#">
-          <img class="header__logo-image" src="img/main-logo.png" alt="Prime One logo" width="212" height="108">
+          <picture class="header__logo-image">
+            <source srcset="img/main-logo.png" type="image/png" media="(min-width: 767px)">
+            <source srcset="img/logo-small.png" type="image/png" media="(max-width: 767px)">
+            <img src="img/main-logo.png">
+          </picture>
         </a>
 
         <nav class="main-nav">
@@ -89,7 +93,7 @@
         </div>
       </div>
     </section>
-
+    <!--
     <section class="caterings">
       <div class="container">
         <h2 class="visually-hidden">Caterings</h2>
@@ -281,7 +285,9 @@
     </div>
   </footer>
 
-  <script src="js/script.min.js"></script>
+  -->
+
+    <script src="js/script.min.js"></script>
 </body>
 
 </html>
